@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage with Roboto Font</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Applies the Roboto font */
+            padding: 10% 20% 20% 10%;
+        }
+        iframe {
+            width: 100%; /* Ensures the iframe takes the full available width */
+            height: auto; /* Adjust height to maintain aspect ratio */
+            aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+    
+    <section>
+        <p>This is a paragraph of text to introduce the page. Here, you can add more descriptions or information about the content of the website.</p>
+    </section>
+    
+    <!-- Embedding an image -->
+    <section>
+        <h2>Embedded Image</h2>
+        <img src="https://images.unsplash.com/photo-1717967354938-5b9f0e167f42?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beautiful landscape" style="width:100%; height:auto;">
+    </section>
+
+    <!-- Embedding a YouTube video -->
+    <section>
+        <h2>Embedded Video</h2>
+        <iframe src="https://www.youtube.com/embed/pMX2cQdPubk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Embedding a video -->
+<section>
+        <h2>Embedded Video</h2>
+        <video style="width:100%;height:auto;" controls>
+            <source src="path_to_your_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+
+    <footer>
+        <p>More content can follow here, such as additional text, images, or videos.</p>
+    </footer>
+</body>
+</html>
